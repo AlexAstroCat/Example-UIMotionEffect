@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--Demos-->
         <scene sceneID="7m4-vp-MNV">
             <objects>
                 <tableViewController id="maF-fg-N5s" sceneMemberID="viewController">
@@ -89,7 +89,7 @@
                             <outlet property="delegate" destination="maF-fg-N5s" id="A4H-Jf-8f4"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="AGu-SI-EUj"/>
+                    <navigationItem key="navigationItem" title="Demos" id="AGu-SI-EUj"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="edy-wQ-Pkf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -153,16 +153,16 @@
                                         <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
-                                        <real key="value" value="3"/>
+                                        <real key="value" value="4"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
                                         <real key="value" value="0.5"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
-                                        <size key="value" width="3" height="3"/>
+                                        <size key="value" width="4" height="4"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="size" keyPath="motionOffset">
-                                        <size key="value" width="-10" height="-10"/>
+                                        <size key="value" width="-16" height="-16"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
                                         <color key="value" red="0.0" green="0.39090157463091307" blue="0.81704837328767121" alpha="0.51599957191780821" colorSpace="custom" customColorSpace="sRGB"/>
@@ -244,7 +244,7 @@
                                         <color key="value" red="0.0" green="0.69243734137055846" blue="0.54924800973080534" alpha="0.82288099319999997" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="size" keyPath="shadowMotionOffset">
-                                        <size key="value" width="-16" height="-16"/>
+                                        <size key="value" width="16" height="16"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
@@ -264,11 +264,6 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="size" keyPath="motionOffset">
-                                        <size key="value" width="8" height="8"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
