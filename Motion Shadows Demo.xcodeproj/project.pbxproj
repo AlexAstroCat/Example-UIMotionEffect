@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1B3FDFF6226E2A0300BD8D2A /* UIView+InterpolatingMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3FDFF5226E2A0300BD8D2A /* UIView+InterpolatingMotion.swift */; };
+		1B446FF5226E766F00AE9FE4 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B446FF4226E766F00AE9FE4 /* CustomButton.swift */; };
+		1B446FF7226F783000AE9FE4 /* FloatingViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B446FF6226F783000AE9FE4 /* FloatingViewTableViewController.swift */; };
 		1B61BD84225D3D4000070D4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B61BD83225D3D4000070D4B /* AppDelegate.swift */; };
 		1B61BD86225D3D4000070D4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B61BD85225D3D4000070D4B /* ViewController.swift */; };
 		1B61BD89225D3D4000070D4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B61BD87225D3D4000070D4B /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 
 /* Begin PBXFileReference section */
 		1B3FDFF5226E2A0300BD8D2A /* UIView+InterpolatingMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+InterpolatingMotion.swift"; sourceTree = "<group>"; };
+		1B446FF4226E766F00AE9FE4 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		1B446FF6226F783000AE9FE4 /* FloatingViewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingViewTableViewController.swift; sourceTree = "<group>"; };
 		1B61BD80225D3D4000070D4B /* Motion Shadows Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Motion Shadows Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B61BD83225D3D4000070D4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B61BD85225D3D4000070D4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				1B61BD8C225D3D4200070D4B /* LaunchScreen.storyboard */,
 				1B61BD8F225D3D4200070D4B /* Info.plist */,
 				1B3FDFF5226E2A0300BD8D2A /* UIView+InterpolatingMotion.swift */,
+				1B446FF4226E766F00AE9FE4 /* CustomButton.swift */,
+				1B446FF6226F783000AE9FE4 /* FloatingViewTableViewController.swift */,
 			);
 			path = "Motion Shadows Demo";
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B446FF5226E766F00AE9FE4 /* CustomButton.swift in Sources */,
 				1B61BD86225D3D4000070D4B /* ViewController.swift in Sources */,
+				1B446FF7226F783000AE9FE4 /* FloatingViewTableViewController.swift in Sources */,
 				1B3FDFF6226E2A0300BD8D2A /* UIView+InterpolatingMotion.swift in Sources */,
 				1B61BD84225D3D4000070D4B /* AppDelegate.swift in Sources */,
 			);

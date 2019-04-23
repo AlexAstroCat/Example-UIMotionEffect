@@ -146,11 +146,11 @@ import ObjectiveC
         
         let effect = UIInterpolatingMotionEffect(keyPath: keyPath, type: effectType)
         if value < 0 {
-            effect.minimumRelativeValue = -value;
-            effect.maximumRelativeValue = value;
+            effect.minimumRelativeValue = -(abs(value));
+            effect.maximumRelativeValue = abs(value);
         } else {
-            effect.minimumRelativeValue = value;
-            effect.maximumRelativeValue = -value;
+            effect.minimumRelativeValue = abs(value);
+            effect.maximumRelativeValue = -(abs(value));
         }
         addMotionEffect(effect)
     }
