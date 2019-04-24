@@ -1,0 +1,6 @@
+xcuserdata/
+DerivedData/
+.DS_Store
+.*.sw?
+.sw?
+*.xcscmblueprint
